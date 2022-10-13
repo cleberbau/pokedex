@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Grape+Nuts&family=Oxanium:wght@300;400;500;600;700;800&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom,#6ab7f5, #fff);
+    min-height: 100vh;
+}
+
+main{    
+    display: inline-block;
+    margin-top:2%;
+    padding: 2%;
+    position: relative;
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 520px;
+}
+
+.pokemonImage{
+    position: absolute;
+    bottom:62%;
+    left: 45%;
+    transform: translate(-27%,0);
+    height: 15%;
+}
+
+.pokemonData{
+    position: absolute;
+    font-weight: 600;
+    font-size: 100%;
+    color: #ecba47;
+    top: 17%;
+    left: 37%;
+    transform: translate(24%,20%)
+}
