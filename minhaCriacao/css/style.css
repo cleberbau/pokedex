@@ -36,9 +36,28 @@ main{
 .pokemonData{
     position: absolute;
     font-weight: 600;
-    font-size: 100%;
+    font-size: clamp(3px, 3.5vw, 18px);
     color: #ecba47;
     top: 17%;
-    left: 37%;
+    left: 35%;
     transform: translate(24%,20%)
+}
+
+.pokemonName{
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.form{
+    position: absolute;
+    width: 100%;
+    top:13%;
+    left: 00%;
+}
+
+.inputSearch{
+    width: 28%;
+    outline: none;
+    font-weight: 600;
+    
 }
