@@ -16,13 +16,13 @@ body{
 main{    
     display: inline-block;
     margin-top:2%;
-    padding: 2%;
+    padding:2%;
     position: relative;
 }
 
 .pokedex{
     width: 100%;
-    max-width: 520px;
+    max-width: 550px;
 }
 
 .pokemonImage{
@@ -37,7 +37,7 @@ main{
     position: absolute;
     font-weight: 600;
     font-size: clamp(3px, 3.5vw, 18px);
-    color: #ecba47;
+    color: #fa0000;
     top: 17%;
     left: 35%;
     transform: translate(24%,20%)
@@ -53,6 +53,14 @@ main{
     width: 100%;
     top:13%;
     left: 00%;
+    
+   
+}
+
+
+::placeholder{
+    text-align: center;
+    color: rgb(255, 230, 0);
 }
 
 .inputSearch{
@@ -60,4 +68,61 @@ main{
     outline: none;
     font-weight: 600;
     
+    background-color:rgb(29, 29, 29);;
+    color: #fff;
+    border:none;
+    
 }
+.buttons{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 35.5%;
+    left: 30%;
+    transform: translate(39%,0%);
+    border: none;
+    gap:3px;
+   
+    
+}
+button{
+    color:#fff;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    transform: scale(1.8);
+    transition: 0.2s all;
+    color: blue;
+}
+.buttonPrev{
+    margin-right:190%;
+}
+
+@media only screen and (max-width: 900px){
+    .form{
+        position: absolute;
+        width: 100%;
+        top:13%;
+        left: 00%;        
+        transform:translate(-1%,-70%)
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        bottom: 35.5%;
+        left: 30%;
+        transform: translate(-10%,30%);
+        gap:1px;
+    }
+
+    .buttonNext{
+        margin-right:150%;
+    }
+}
+

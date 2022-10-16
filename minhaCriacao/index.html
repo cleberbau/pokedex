@@ -8,23 +8,35 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="./js/script.js"></script>
     <title>Pokedex Color</title>
 </head>
 <body>
     <main>
-        <img src="https://i.pinimg.com/originals/ab/be/28/abbe28a943ed44fcd98452687f7c46c9.gif" alt="pokemon" class="pokemonImage">
+        <img src="" alt="" class="pokemonImage">
         <h1 class="pokemonData">
-            <span class="pokemonNumber">1</span> - 
-            <spam class ="pokemonName">Charizerd</spam>
+            <span class="pokemonNumber"></span>
+            <spam class ="pokemonName"></spam>
         </h1>
-        <img src="assets/gameboy.png" alt="Gameboy Color pokemom" class="pokedex">
+        
         <form class="form">
             <input type="search" 
                 class="inputSearch" 
-                placeholder="Name or id"
+                placeholder="Nome ou ID Aqui"
                 required>
         </form>
+        <div class="buttons">
+            <button class="buttonPrev" title="Pokemon Anterior">&lt;</button>
+            <button class="buttonNext" title="Pokemon Anterior">&gt;</button>
+        </div>
+        <img src="assets/gameboy.png" alt="Gameboy Color pokemom" class="pokedex">
+
+        
+          
     </main>
-    
+    <audio autoplay="autoplay" controls="controls" class="music">
+        <source src="assets/Pokemon Gameboy Music (128 kbps).mp3" type="audio/mp3" />
+        seu navegador não suporta HTML5
+        </audio>
 </body>
 </html>
